@@ -12,11 +12,13 @@
             <i class="icon-user"></i><span>My Profile</span>
           </a>
         </li>
+		<!--
         <li>
           <a href="<?=SITE_ADMIN_URL;?>imailboxs">
             <i class="icon-envelope"></i><span>Messages</span>
 	  </a>
         </li>
+		-->
         <li>
           <a href="<?=SITE_ADMIN_URL;?>dashboard/task">
 	    <i class="icon-tasks"></i><span>Taks</span>

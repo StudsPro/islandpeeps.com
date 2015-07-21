@@ -521,7 +521,9 @@
                   <!-- END DROPDOWN MENU-->
                 </li>
                 
+				<!--
                 <li id="emsg" class="dropdown nav-messages nav-dd"><a class="dropdown-toggle" href="<?=SITE_ADMIN_URL;?>imailboxs"><i class="fa fa-envelope"></i>
+				-->
               </a></li>
 
                                                             
