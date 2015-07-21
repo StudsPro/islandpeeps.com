@@ -1,0 +1,90 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*html,
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #111;
+    overflow: hidden;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+*/
+/*.video-wrapper {
+    position: absolute;
+    width: 500%;
+    height: 100%;
+    z-index: 0;
+}*/
+/* Video Pages */
+/*
+.screen {
+    position: relative;
+    height: 100%;
+    width: 100%; /*  NOTE: numVideos/100%  */;
+ /*   float: left;
+    overflow: hidden;
+}
+*/
+.big-image {
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+.video-title {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    opacity: .5;
+    margin: 40px 0 0 0;
+    padding: 0;
+    line-height: .65;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+/* Nav */
+/*
+nav {
+    position: absolute;
+    right: 5%;
+    top: 45%;
+    padding: 20px;
+    background: #000;
+    border-radius: 40px;
+    opacity: .4;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+nav:hover {
+    opacity: .6;
+}
+
+.next-icon {
+    display: block;
+    border-top: solid 2px #fff;
+    border-right: solid 2px #fff;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: -5px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color: #fff;
+    text-decoration: none;
+}
+*/
+
+/* End Codrops Header Style */

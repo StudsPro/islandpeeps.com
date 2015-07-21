@@ -1,0 +1,73 @@
+*,*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.col-lg-11,.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12 {padding:0px;}
+@media (min-width: 768px){.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11{float: left;}
+.col-sm-12 {width: 100%;}.col-sm-11 {width: 91.66666666666666%;}.col-sm-10 {width: 83.33333333333334%;}}
+@font-face {font-family: Nunito, Helvetica, sans-serif;}
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,500,700);
+dl, dt, dd, ol, ul, li, section {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+::-moz-selection {background: #ccc;color: #000;text-shadow: none;padding:20px;}
+::selection {background: #ccc;color: #000;text-shadow: none;}
+a {color: #191919; outline:none !important;}
+a:hover, a:focus {color: #ec5591; text-decoration: none;}
+a:active {background-color: transparent;}
+input, textarea, input[type="submit"]:focus, div {outline: none;font-family: Nunito, Helvetica, sans-serif;}
+button, input, select, textarea {vertical-align: top; margin: 0;}
+.alpha{margin-left:0 !important;}
+.omega{margin-right:0 !important;}
+.btn {padding:0;border:none;position:relative;box-shadow:none !important;}
+.btn span,.btn input {display:block;height:31px;line-height:31px;background:#ee5190;border:none;border-radius:0;font-size:14px;color:#fff;font-weight:300;padding:0 14px;opacity:1;margin-left:74% !important;transition:all .15s ease;}
+.btn:hover span ,.btn:hover input {  opacity:.84;}
+.btn:active span ,.btn:active input {background:#fff;color:#ec5490;border-color:#fff;}
+input::-webkit-input-placeholder {font-size: 12px; color: #000000;}
+input:-moz-placeholder {font-size: 12px; color: #000000;}
+textarea::-webkit-input-placeholder {font-size: 12px; color: #000000;}
+textarea:-moz-placeholder {font-size: 12px; color: #000000;}
+.lightPlaceholder input::-webkit-input-placeholder {font-size: 12px; color: #333333;}
+.lightPlaceholder input:-moz-placeholder {font-size: 12px; color: #333333;}
+.lightPlaceholder textarea::-webkit-input-placeholder {font-size: 12px; color: #333333;}
+.lightPlaceholder textarea:-moz-placeholder {font-size: 12px; color: #333333;}
+label, input, button, select, textarea {font-size: inherit; line-height: normal;}
+input[type="text"],input[type="password"],textarea,.select_styled {-webkit-appearance: none;-moz-appearance: none;border: none;background: #FFFFFF;padding:0 12px;color: #362c27;width: 100%;margin: 0;}
+input[type="text"],input[type="password"]{height: 31px;}
+.ie8 input[type="text"],.ie8 input[type="password"]{line-height: 31px;}
+textarea {padding: 10px 12px;height: 100px;resize: vertical;overflow: auto;}
+input[type="text"]:focus,input[type="password"]:focus,textarea:focus {border: none;color:#333;}
+.field_text_3{width: 49.5% ;position: relative;margin:0;padding:0;display:inline-block;margin-bottom:4px;color:#333;}
+.field_text_5{width: 25% ;position: relative;margin:0;padding:0;margin-left:11px;display:inline-block;border:1px #e0dcde solid;}
+.sele_boxx{border:1px #e0dcde solid;}
+.field_text_2{float:left;position: relative;width:98% ;margin:0;color:#333;padding:0;font-size:12px;display:block;margin-bottom:4px;}
+.field_text.field_textarea{width: 98%;margin-right: 0;margin-bottom:4px ;position: relative;border:1px #e0dcde solid;}
+.label_title{display: block;margin-bottom: 8px;font-size: 14px;cursor: default;font-weight:500;}
+@media (max-width:479px){.field_text,}
+.field_text_ar{	background: #FFFFFF !important;	border:1px #e0dcde solid !important;}
+.add-comment.styled .add-comment-title {display: none;}
+.add-comment.styled input[type="text"],.add-comment.styled input[type="password"] {background: #FFFFFF;	border:1px #e0dcde solid;}
+/*.add-comment {background:#fff;}*/
+.add-comment {background: url(images/form-bg.png) top left repeat !important;border:1px solid #fff;border-radius:10px;}
+.add-comment.with_ava {background:#fcfcfc;}
+.add-comment.with_ava.boxed .comment-form {padding-bottom:25px;}
+.add-comment.styled .comment-form {padding:20px;}
+.add-comment.styled .comment-form textarea {height: 70px;}
+.add-comment.styled .field_text,
+.add-comment.styled .field_select{float: none;margin-right: 0;margin-bottom: 15px;display:inline-block;}
+.add-comment.styled .field_text.field_textarea {margin-bottom: 0px;}
+.add-comment.styled .label_title {font-size: 14px;color: #646464;font-weight:normal;}
+@media (max-width: 479px), (min-width: 768px) and (max-width: 991px) {
+.add-comment.styled .comment-form {display: inline-block;margin: 0;padding: 10px;position: relative;}
+.add-comment.styled .label_title {position: static; text-align: left;}}
+.nicEdit-pane {-webkit-box-sizing: content-box;-moz-box-sizing: content-box;box-sizing: content-box;}
+.nicEdit-panel {overflow: hidden;position:absolute;right:0;top:2px;}
+.nicEdit-button-undefined {border: none !important;}
+.nicEdit-button {background-image: url(images/nicEditorIcons.png) !important;background-repeat: no-repeat;}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+.nicEdit-button {background-image: url(images/nicEditorIcons-x2.png) !important;background-size: auto 18px;}}
+.nicEdit-container {background: #FFFFFF;border-top:1px #CCCCCC solid;padding:0;}
+.nicEdit-container {font-weight: 300; width: auto !important;clear:both}
+.nicEdit-container i {font-style: italic !important;}
+.nicEdit-container b {font-weight: 700 !important;}
+.nicEdit-container u {text-decoration: underline !important;}
+.nicEdit-container .nicEdit-main {font-size: 15px; color: #3a3a3a; width: auto !important;}
+.nicEdit-main p, .nicEdit-main div {line-height: normal; margin-bottom: 0;}
+.text_editor .label_title  {float:left;}
+.text_editor {position:relative;}

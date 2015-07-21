@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <link rel="icon" href="favicon.ico"/>
+
+    <title>:LIMO CAR:</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
+	<link href="css/style.css" rel="stylesheet"/>
+    
+
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+  </head>
+
+  <body>
+ <nav class="navbar navbar-default custom-navbar"  role="navigation">
+        <div class="container custom-container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+			
+            <a class="navbar-brand logo" href="#"><img src="image/logo.png"/></a>
+	
+              <div class="col-md-6 col-sm-12 mobile-logo hidden-lg hidden-md hidden-sm"><img src="image/phone-logo.png"/><span>+65 6735 0735</span></div>
+          </div>
+		  
+		  <div class="col-md-6 col-sm-12 mobile-logo hidden-xs "><img src="image/phone-logo.png"/><span>+65 6735 0735</span></div>
+          <div id="navbar" class="navbar-collapse collapse navbar-right custom-nav pull-right ">
+            <ul class="nav navbar-nav pull-right">
+              <li class=""><a href="#">HOME</a></li>
+              <li class="dropdown ">
+                <a href="#" class="dropdown-toggle"  data-hover="dropdown" data-toggle="dropdown" role="button" aria-expanded="false">ABOUT<span class="caret"></span></a>
+                <ul class="dropdown-menu dropdown-menu-left custom-ul" role="menu">
+                  <li><a href="#">Submenu1</a></li>
+                  <li><a href="#">Submenu3</a></li>
+                  <li><a href="#">Submenu2</a></li>
+				  <li><a href="#">Submenu4</a></li>
+                 </ul>
+              </li>
+              <li class="active"><a href="select-vehicle.php">SELECT VEHICLE</a></li>
+			  <li class=""><a href="#">MINIBUS</a></li>
+			  <li class=""><a href="#">BUS</a></li>
+			  <li class=""><a href="#">AIRPORT TRANSFER</a></li>
+			  <li class=""><a href="#">CARS</a></li>
+              <li class=""><a href="#">PRODUCT</a></li>
+              
+			 
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+	<div class="clearfix"></div> 
+	 
+    <div class="slider">
+	<div class="container custom-container"> 
+    <div class="slider-inner">
+	  
+	   <div class="col-md-4 col-xs-12 col-sm-12 ">
+
+	      <div class="row one-way">
+          
+          <h2 id="nav-tabs">BOOK YOUR RIDE NOW</h2>
+           <ul role="tablist" class="nav  tab col-md-12" id="myTab">
+                  <li class="col-md-6 active col-xs-6 col-sm-6" role="presentation"><a aria-expanded="false" aria-controls="home" data-toggle="tab" role="tab" id="home-tab" href="#home">One way</a></li>
+                  <li role="presentation" class="col-md-6 col-xs-6 col-sm-6"><a aria-controls="profile" data-toggle="tab" id="profile-tab" role="tab" href="#profile" aria-expanded="true">Hourly</a></li>
+    				
+          </ul>
+          
+    	<div class="tab-content col-md-12" id="myTabContent">
+          <div aria-labelledby="home-tab" id="home" class="tab-pane fade active in" role="tabpanel">
+		    <form class="form-inline" role="form">
+              
+              <div class="container-fluid custom_form">
+              
+               <div class="form-group col-xs-12 pad-0">
+                  <div class="input-group col-xs-12 ">
+                  <label class="pull-left" for="exampleInputEmail2">Pick-Up Location1</label>
+                     <input type="text" class="form-control custom-input" id="exampleInputEmail2" placeholder="Enter Address or Airport Code">
+          
+                </div>
+               </div>
+  
+              <div class="form-group col-xs-12 pad-0">
+                  <div class="input-group col-xs-12">
+                  <label class="pull-left" >Drop-Off location1</label>
+
+                    <input type="text" class="form-control custom-input" id="exampleInputEmail2" placeholder="Enter Address or Airport Code">
+                </div>
+               </div>
+                <div class="text-left "><label class="" >Date1</label></div>
+                  
+                   <div class="col-xs-12 pad-0 text-left timing">
+				     <div class="input-group date-input  col-md-5 col-xs-5 col-sm-5">
+                       <input type="text" class="form-control custom-input custom-date" id="exampleInputEmail2" placeholder="11/24/2014">
+					   <span class="input-group-addon glyphicon glyphicon-calendar date-background"></span>
+					  
+                      </div>
+					  <div class="input-group col-md-3 col-xs-3 col-sm-6 time hor-margin">
+                         <input type="text" class="form-control custom-time" placeholder="5PM">
+                         <span class="input-group-addon glyphicon glyphicon-time glyphicon  date-background"></span>
+                       </div>
+                  
+					
+					 <div class="input-group col-md-3 col-xs-3 col-sm-5 time">
+                         <input type="text" class="form-control custom-time" placeholder="15PM" >
+                         <span class="input-group-addon glyphicon glyphicon-time glyphicon date-background"></span>
+                       </div>
+					    
+                 </div>
+				 
+				 
+              <button type="submit" class="btn btn-warning col-md-12 col-xs-12 voffset3 submit">NEXT STEP : SELECT AUTO</button>
+           </div>
+           </form>
+           </div>
+           
+           	<div aria-labelledby="profile-tab" id="profile" class="tab-pane fade " role="tabpanel">
+            <form class="form-inline" role="form">
+              
+              <div class="container-fluid custom_form">
+              
+               <div class="form-group col-xs-12 pad-0">
+                  <div class="input-group col-xs-12">
+                  <label class="pull-left" for="exampleInputEmail2">Pick-Up Location2</label>
+                     <input type="text" class="form-control custom-input" id="exampleInputEmail2" placeholder="Enter Address or Airport Code">
+          
+                </div>
+               </div>
+  
+              <div class="form-group col-xs-12 pad-0 ">
+                  <div class="input-group col-xs-12">
+                  <label class="pull-left" >Drop-Off location2</label>
+
+                    <input type="text" class="form-control custom-input" id="exampleInputEmail2" placeholder="Enter Address or Airport Code">
+                </div>
+               </div>
+                <div class="text-left "><label class="" >Date2</label></div>
+                  
+                   <div class="col-xs-12 pad-0 timing">
+				     <div class="input-group date-input col-md-5 col-xs-5 col-sm-5">
+                       <input type="text" class="form-control custom-input custom-date" id="exampleInputEmail2" placeholder="11/24/2014">
+					   <span class="input-group-addon glyphicon glyphicon-calendar date-background"></span>
+					  
+                      </div>
+					  <div class="input-group col-md-3 col-xs-3 col-sm-6 time hor-margin">
+                         <input type="text" class="form-control custom-time" placeholder="5PM">
+                         <span class="input-group-addon glyphicon glyphicon-time glyphicon  date-background"></span>
+                       </div>
+                  
+					
+					 <div class="input-group col-md-3 col-xs-3 col-sm-5 time">
+                         <input type="text" class="form-control custom-time" placeholder="15PM" >
+                         <span class="input-group-addon glyphicon glyphicon-time glyphicon date-background"></span>
+                       </div>
+					  </div>  
+                 
+				 
+				 
+              <button type="submit" class="btn btn-warning col-md-12 col-xs-12 voffset3 submit">NEXT STEP : SELECT AUTO</button>
+           </div>
+           </form>
+           </div>
+
+	</div>
+    	</div>
+		  </div>
+	
+	
+	   
+	
+ <div class="col-md-8 pull-right custom-slider col-xs-12 col-sm-12 verti-mar1">
+   <div class="slider-outer">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+     
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"><div class="first_li"><span></span></div> <div class="second_li"></div></li>
+       
+        <li data-target="#myCarousel" data-slide-to="1"><div class="first_li"><span></span></div> <div class="second_li"></div></li>
+   
+        <li data-target="#myCarousel" data-slide-to="2"><div class="first_li"><span></span></div> <div class="second_li"></div></li>
+    
+        <li data-target="#myCarousel" data-slide-to="3"><div class="first_li"><span></span></div> <div class="second_li"></div></li>
+      
+        <li data-target="#myCarousel" data-slide-to="4"><div class="first_li"><span></span></div></li>
+        
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="image/slider.png" alt="First slide"/>
+          
+        </div>
+         <div class="item">
+          <img src="image/slider-new3.png" alt="First slide"/>
+          
+        </div>
+     
+       <div class="item">
+          <img src="image/slider-new1.png" alt="First slide"/>
+          
+        </div>
+          <div class="item">
+          <img src="image/slider-new3.png" alt="First slide"/>
+          
+        </div>
+          <div class="item">
+          <img src="image/slider-new4.png" alt="First slide"/>
+          
+        </div>
+        
+        
+       
+      </div>
+      <!---<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>--->
+    </div>
+		</div>
+        
+		</div>
+	
+	</div>
+</div>
+ </div>
+ 
+ <div class="clearfix"></div> 
+
+	
+    <div class="container custom-container"> 
+       <div class="row content custom-container">
+         <h3 class="text-center voffset4">Singapore's Service is Trusted By</h3>       
+         <div class="col-md-12 pad-0 col-xs-12 col-sm-12 text-center">
+        
+          <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 client pad-0">
+                      
+                 <span>
+                   <img src="image/expedia.png">
+                 </span>
+                 
+                 <span>
+                   <img src="image/jelblue.png">
+                 </span>
+                 
+                 <span>
+                   <img src="image/leader_club.png">
+                 </span>
+                 
+                 <span>
+                   <img src="image/ihg.png">
+                 </span>
+              
+                 <span>
+                   <img src="image/royal.png">
+                 </span>
+                 
+                 <span>
+                   <img src="image/norwegian.png">
+                 </span>
+                 
+                  <span>
+                   <img src="image/united.png">
+                 </span>
+               
+
+          
+          </div>
+          
+          </div>
+        </div>
+     </div>  
+     
+    <div class="container-outer voffset2">  
+    <div class="container custom-container">   
+       <div class="grid">
+        <h3>SINGAPORE'S PREMIUM LIMOUSINE SERVICE</h3>
+     
+      <div class="voffset4 row main-content">
+      
+        <div class="col-md-4 pull-left col-xs-10 col-sm-4 col-lg-3">
+        <img src="image/car-product.png"/>
+        </div>
+        
+        <div class="col-md-8 pull-right col-xs-12 col-sm-8 voffset2 col-lg-9">
+          <p class="text-left">We offer all-round transport solutions that can be customised to suit any occasion and event.
+Whether it's a simple airport transfer you require, an impressive wedding day convoy to celebrate the most important and memorable day of your life, or an extensive suite of luxury limousines for a weeklong corporate event across the island that will seal a million-dollar deal. Limocars can deliver all this and more.
+</p>
+
+<p>We gurantee you an unmatched level of <strong>customer service, luxurious comfort & reliability.</strong></p>
+        </div>
+        
+        </div>
+       </div>
+       </div>
+      
+  <div class="clearfix"></div>     
+          
+   
+   <div class="footer pad-bottom">
+     <div class="container custom-container"> 
+      <div class="footer-inner ">
+     
+     <div class="col-lg-1 col-sm-1 pad-0">
+      <div class="col-md-1 col-xs-6 col-sm-12 col-lg-1 pad-0">
+        <h3 class="dropdown">CARS</h3>
+        <ul class="nav">
+           <li><a href="#">LIMOUSINES</a></li>
+           <li><a href="#">MINIBUS</a></li>
+		   <li><a href="#">BUS</a></li>
+        </ul>
+      </div>
+      </div> 
+      
+      <div class="col-lg-7 pad-0">                   
+       <div class="col-md-2 col-xs-6  col-sm-2 col-lg-3">
+        <h3>ABOUT</h3>
+        <ul class="nav">
+           <li><a href="#">ABOUT LIMOCARS</a></li>
+           <li><a href="#">FEEDBACK </a></li>
+           <li><a href="#">TERMS & CONDITIONS</a></li>
+           <li><a href="#">WAIT TIME AND </a></li>
+           <li><a href="#">CAREER</a></li>
+          
+        </ul>
+      </div>
+      
+       <div class="col-md-2 col-xs-6 col-sm-2 col-lg-3 pad-0">
+        <h3>Nam dapibus</h3>
+        <ul class="nav">
+           <li><a href="#">ABOUT LIMOCARS</a></li>
+           <li><a href="#">FEEDBACK</a></li>
+           <li><a href="#">TERMS & CONDITIONS</a></li>
+           <li><a href="#"> WAIT TIME AND</a> </li>
+           <li><a href="#">CAREER</a></li>
+         </ul>
+      </div>
+      
+       <div class="col-md-2 col-xs-6 col-sm-2 col-lg-3 pad-0 ">
+        <h3>Nullam facilis</h3>
+        <ul class="nav">
+             <li><a href="#">ABOUT LIMOCARS </a></li>
+           <li><a href="#">FEEDBACK</a></li>
+           <li><a href="#">TERMS & CONDITIONS </a></li>
+           <li><a href="#"> WAIT TIME AND </a></li>
+           <li><a href="#">CAREER</a></li>
+        </ul>
+      </div>
+      
+       <div class="col-md-2 col-xs-6 col-sm-2 col-lg-3 pad-0">
+        <h3>Phasellus</h3>
+        <ul class="nav">
+            <li><a href="#">ABOUT LIMOCARS</a></li>
+           <li><a href="#">FEEDBACK </a></li>
+           <li><a href="#">TERMS & CONDITIONS</a></li>
+           <li><a href="#"> WAIT TIME AND</a> </li>
+           <li><a href="#">CAREER</a></li>
+        </ul>
+      </div>
+      </div>
+      
+       <div class="col-lg-4 col-md-2 pad-0 col-sm-3 col-xs-6 pad-1">                  
+                  
+      <div class="col-md-12 pull-right copy-right col-xs-12 col-sm-12 col-lg-9 pad-0 pull-right">
+        <div class="text-left">
+          <p><strong>&copy; 2014 @Limocars.SG</strong></p>
+          <div class="pad-2">
+            <p>Limousine, Car and Bus Services in Singapore</p>
+            <p>All rights reserved. </p>
+         </div>  
+        </div>
+        
+      </div>
+     
+     </div> 
+      </div>
+     
+     </div>
+   
+   </div>   
+    </div>  
+  
+
+    
+  </body>
+</html>

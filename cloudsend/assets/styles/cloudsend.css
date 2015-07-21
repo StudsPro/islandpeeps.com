@@ -1,0 +1,414 @@
+/**
+ * CloudSend
+ *
+ * @package    CloudSend
+ * @author     codingking.co
+ * @copyright  Copyright (c) 2013 codingking.co - all rights reserved
+ * @license    Commercial
+ * @link       http://www.codingking.co/
+ * 
+ * 
+ * This source file is distributed in the hope that it will be useful, but 
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+ * or FITNESS FOR A PARTICULAR PURPOSE. See the license files for details.
+ */
+
+ /**
+  * Standard Definitions
+  */
+ body {
+    position: relative;
+    padding-top: 90px;
+    background-color: #fff;
+    font-family: 'OpenSansRegular';
+    font-weight: normal;
+    color: #333333;
+ }
+ 
+ strong {
+     font-family: 'OpenSansBold';
+     font-weight: normal;
+ }
+ 
+ .mt5 {
+     margin-top: 5px;
+ }
+ 
+ .mt10 {
+     margin-top: 10px;
+ }
+ 
+ .br5 {
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     border-radius: 5px;
+ }
+ 
+ .clear {
+     clear: both;
+ }
+ 
+ .tal {
+     text-align: left;
+ }
+ 
+ .tar {
+     text-align: right;
+ }
+ 
+ .fl {
+     float: left;
+ }
+ 
+ .fr {
+     float: right;
+ }
+ 
+ a {
+    color: #666;
+    text-decoration: none;
+ }
+ 
+ a i {
+     color: #000;
+ }
+ 
+ a:hover i {
+     text-decoration: none;
+ }
+ 
+ a i.icon-white {
+     color: #FFF;
+ }
+ 
+ .bt {
+    border-top: 1px solid #BEBEBE;
+ }
+ 
+ .bb {
+    border-bottom: 1px solid #BEBEBE;
+ }
+ 
+ .tac {
+     text-align: center;
+ }
+ 
+ /**
+  * Overrides
+  */
+ 
+.navbar-fixed-top .brand {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 20px;
+  float: right;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+.navbar-fixed-top .brand:hover {
+  text-decoration: none;
+}
+
+.navbar .brand {
+    color: #FFFFFF;
+    padding-right: 20px;
+    float: left;
+    font-family: 'OpenSansBold';
+    font-weight: normal;
+    margin-left: 0px;
+ }
+ 
+ .navbar .nav > li > a {
+    color: #FFFFFF;
+ }
+ 
+ .navbar .divider-vertical {
+    background-color: #D44413;
+    border-right: 1px solid #D44413;
+ }
+ 
+ .navbar .nav .active > a,
+ .navbar .nav .active > a:hover {
+     background-color: transparent;
+     border-bottom: 2px solid #FFFFFF;
+ }
+ 
+ .btn-primary {
+    background-color: #D44413;
+    background-image: -moz-linear-gradient(center top , #CE4213, #D44413);
+    background-repeat: repeat-x;
+    border-color: #CE4213;
+ }
+ 
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+  background-color: #D44413;
+  *background-color: #CE4213;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #CE4213 \9;
+}
+ 
+ .navbar-inner {
+     background-color: #D44413;
+     background-image: none;
+ }
+ 
+ .modal, .modal-header, .modal-footer {
+    -webkit-border-radius: 0 0 0 0;
+    -moz-border-radius: 0 0 0 0;
+    border-radius: 0 0 0 0;     
+ }
+ 
+ .modal-header {
+     background-color: #D44413;
+     color: #FFFFFF;
+ }
+ 
+.dropdown-menu li > a:hover,
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #D44413;
+}
+
+/* Footer
+-------------------------------------------------- */
+.footer {
+  margin-top: 45px;
+  padding: 35px 0 36px;
+  border-top: 1px solid #e5e5e5;
+}
+.footer p {
+  margin-bottom: 0;
+  color: #555;
+}
+
+ /**
+  * Login
+  */
+  #login h3 {
+      font-family: 'OpenSansBold';
+      font-weight: normal;
+      font-size: 21px;
+      color: #333333;
+  }
+  
+ /**
+  * Default Box
+  */
+  .box {
+      background-color: #FFFFFF;
+      border: 1px solid #BEBEBE;
+  }
+   
+  .box .title {
+      border-bottom: 1px solid #BEBEBE;
+      color: #333333;
+      font-size: 14px;
+      font-family: 'OpenSansBold';
+      font-weight: normal;
+      height: 32px;
+      line-height: 32px;
+      padding-left: 10px      
+  }
+  
+/**
+ * Diskinfo
+ */
+  
+ #diskinfo .tac {
+     font-size: 11px;
+     margin-top: -10px;
+ }
+ 
+/**
+ * DataTable
+ */
+ 
+ #fileTable_length {
+     text-align: right;
+     margin-bottom: 20px;
+ }
+ 
+ #fileTable_length select {
+     width: 70px;
+ }
+ 
+ #fileTable_filter {
+     width: 220px;
+     float: right;
+ }
+ 
+ table#fileTable {
+     position: relative;
+     margin-top: 0px;
+     margin-bottom: 10px;
+ }
+ 
+ #fileTable_filter input {
+     width: 140px;
+ }
+ 
+ #fileTable_paginate {
+     float: right;
+     position: relative;
+     top: -20px;
+ }
+ 
+ #fileTable_paginate a,
+ #fileTable_info {
+     font-size: 11px;
+ }
+ 
+ #fileTable_paginate a {
+     padding-right: 10px;
+ }
+ 
+/**
+ * File Listing
+ */
+#navigationTable {
+    padding-top: 50px;
+}
+
+.nav-list > .active > a, .nav-list > .active > a:hover {
+    background-color: #D44413;
+}
+
+#navigationTable .nav-header {
+    color: #333333;
+    font-size: 13px;
+    text-transform: none;
+}
+
+#navigationTable .settings {
+    position: absolute;
+    padding-top: 3px;
+    padding-left: 155px;
+}
+ 
+/**
+ * Filter
+ */
+ 
+ #filter {
+     text-align: right;
+ }
+  
+ #filter button {
+     margin-top: -10px;
+ }
+ 
+/**
+ * Send By Email
+ */
+
+ #files .form-horizontal .control-label {
+     width: 100px;
+ }
+ 
+ #files .form-horizontal .controls {
+    margin-left: 120px;
+}
+
+/**
+ * Page Header Button
+ */
+
+ .page-header button {
+     float: right;
+     margin-top: -18px;
+ }
+ 
+ .inputURL.input-prepend {
+     padding-left: 20px;
+ }
+ 
+ .inputURL.input-prepend .add-on {
+     margin-right: -5px;
+ }
+ 
+ /**
+  * Change Field Control Description
+  */
+  
+  .controls p {
+      margin-top: 5px;
+  }
+  
+ /**
+  * Edit Public
+  */  
+  
+  #editpublic .form-horizontal .control-group {
+      margin-bottom: 2px;
+  }
+  
+  #editpublic label {
+      font-weight: bold;
+  }
+  
+  #openlinkfiles tbody small {
+      font-size: 11px;
+      color: #666666;
+  }
+  
+ /**
+  * Settings
+  */  
+ 
+  #settings .tabbable {
+      float: right;
+  }
+  
+  /**
+   * Searchform
+   */
+  
+  form.navbar-form {
+      padding-left: 50px;
+      margin-top: -2px;
+  }
+  
+  form.navbar-form button.btn {
+      position: relative;
+      top: 2px;
+  }
+  
+  ul.typeahead a,
+  ul.typeahead .active a,
+  ul.typeahead .active > a,
+  ul.typeahead .active > a:hover {
+      color: #666666;
+  }
+  
+  ul.typeahead .active a,
+  ul.typeahead .active > a,
+  ul.typeahead .active > a:hover {
+      background-color: #D44413
+  }
+  
+  ul.typeahead a strong {
+      color: #D44413;
+  }
+  
+  ul.typeahead.dropdown-menu li > a:hover, ul.typeahead.dropdown-menu .active > a, ul.typeahead.dropdown-menu .active > a:hover {
+    background-color: #D44413;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ ul.typeahead.dropdown-menu li > a:hover strong, ul.typeahead.dropdown-menu .active > a strong, ul.typeahead.dropdown-menu .active > a:hover strong {
+      color: #FFF;
+  }

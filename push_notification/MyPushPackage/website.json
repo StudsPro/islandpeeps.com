@@ -1,0 +1,8 @@
+    {  
+        "websiteName": "islandpeeps Notification Test",  
+        "websitePushID": "web.com.islandpeeps",  
+        "allowedDomains": ["http://islandpeeps.com/new_admin_panel"],  
+        "urlFormatString": "http://islandpeeps.com/new_admin_panel/%@/",  
+        "authenticationToken": "19f8d7a6e9fb8a7f6d9330dabe",  
+        "webServiceURL": "https://islandpeeps.com/new_admin_panel"  
+    }  

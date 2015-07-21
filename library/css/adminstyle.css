@@ -1,0 +1,561 @@
+body
+{
+
+	background-color:#FFFFFF;
+
+	margin:0px;
+
+	padding:0px;
+
+}
+
+.headerText{font-size:32px; padding-left:10px; font-weight:bold; text-shadow: #CCCCCC 0.2em 0.2em 0.2em}
+
+.header
+{
+border-bottom:5px solid #16BED8;
+
+}
+
+.headingrow{background:#77CFE4; font-weight:bold; line-height:22px; padding-left:10px;}
+
+.headerName
+
+{
+
+  padding-left:35px;
+
+  color:#99CC00;
+
+  font-size:16px;
+
+}
+
+
+
+.headerName1{
+
+	color:#fff;
+
+    font-size:16px;
+
+  }
+
+td
+
+{
+
+	font-family:verdana,arial;
+
+	color:black;
+
+	font-size:11px;
+
+	height:25px;
+
+}
+
+.leftmenu
+{border-right:2px solid #77CFE4;}
+
+.leftlink
+{padding-left:10px}
+
+.adminmiddle
+{border-bottom:1px solid #77CFE4; height:400px;}
+
+.headertext 
+
+{
+
+	font-family:Tahoma;
+
+	font-size:12px;
+
+	color:#000;
+
+	font-weight:bold;
+
+	padding:5px;
+
+	background: #77CFE4;
+
+}
+
+.adminText
+
+{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+	font-size:12px;
+
+	color:#ffffff;
+
+	font-weight:bold;
+
+	padding:5px;
+
+}
+
+.tableBorder
+
+{
+
+  border:1px solid #77CFE4;
+
+}
+
+img {border:0px;}
+
+
+
+.err
+
+{
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+
+	font-size:11px;  
+
+	font-weight:bold;
+
+	color: #ff0000;
+
+}
+
+
+
+.errNoRecord
+
+{
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+
+	font-size:12px;  
+
+	font-weight:bold;
+
+	color: #FF0000;
+
+	height:50px;
+
+	text-align:center;
+
+}
+
+
+
+.logo
+
+{
+
+ background-color:#40A404;
+
+}
+
+
+
+.mandatory
+
+{
+
+	color: #CC3300;
+
+}
+
+.headerTr
+
+{
+
+	background-color: #D1D1D1;
+
+	color:#000000;
+
+	font-weight:bold;
+
+	
+
+}
+
+.oddTr
+
+{
+
+	background-color: #F7F7F7;
+
+}
+
+.evenTr
+
+{
+
+	background-color: #EEEEEE;
+
+}
+
+.evenTr:hover, .oddTr:hover
+
+{
+
+	background-color: #E0E0E0;
+
+}
+
+
+
+input, textarea, button, select
+
+{
+
+	font-family:verdana,arial;
+
+	color:black;
+
+	font-size:11px;
+
+}
+
+
+a 
+{
+
+	font-family:  Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	color: #6D6D6D;
+
+ 	text-decoration: none
+
+}
+
+a:visited
+
+ {
+
+	text-decoration: none
+
+ } 
+
+a:active
+
+ {
+
+ 	text-decoration: none
+
+ }
+
+a:hover
+
+{	
+
+ 	text-decoration: Underline;
+
+}
+
+
+
+/****************************************************************************/
+
+.title   
+
+{		 
+
+	font-family:arial;
+
+	color:#000000;
+
+	font-size:13px;
+
+	font-weight:bold;
+
+
+
+}
+
+.txt
+
+{
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+
+	color:#000000;
+
+	font-size:11px; 
+
+	font-weight:bold;
+
+	line-height: 18px
+
+}
+
+/**		Start: Created By - NPS		*/
+
+
+
+/*!!!!!!!!!!! QuickMenu Core CSS [Do Not Modify!] !!!!!!!!!!!!!*/
+
+.qmmc .qmdivider{display:block;font-size:1px;border-width:0px;border-style:solid; }
+
+.qmmc .qmdividery{float:left;width:0px;}
+
+.qmmc .qmtitle{display:block;cursor:default;white-space:nowrap;}
+
+.qmclear {font-size:1px;height:0px;width:0px;clear:left;line-height:0px;display:block;}
+
+.qmmc {position:relative;height:1%;}
+
+.qmmc a, .qmmc li {float:left;display:block;white-space:nowrap;}
+
+.qmmc div a, .qmmc ul a, .qmmc ul li {float:none;}
+
+.qmsh div a {float:left;}
+
+.qmmc div{visibility:hidden;position:absolute;}
+
+.qmmc ul {left:-10000px;position:absolute;}
+
+.qmmc, .qmmc ul {list-style:none;padding:0px;margin:0px;}
+
+.qmmc li a {float:none}
+
+.qmmc li{position:relative;}
+
+.qmmc ul {z-index:10;}
+
+.qmmc ul ul {z-index:20;}
+
+.qmmc ul ul ul {z-index:30;}
+
+.qmmc ul ul ul ul {z-index:40;}
+
+.qmmc ul ul ul ul ul {z-index:50;}li:hover>ul{left:auto;}
+
+#qm0 ul {top:100%;}
+
+#qm0 ul li:hover>ul{top:0px;left:100%;}
+
+
+
+/*!!!!!!!!!!! QuickMenu Styles [Please Modify!] !!!!!!!!!!!*/
+
+	/* QuickMenu 0 */
+
+	/*"""""""" (MAIN) Items""""""""*/	
+
+	#qm0 a	
+
+	{	
+
+		padding:5px 4px 5px 5px;
+
+		color:#000000;
+
+		font-family:"trebuchet MS";
+
+		font-size:12px;
+
+		font-weight:normal;
+
+		text-decoration:none;
+
+	}
+
+
+
+
+
+	/*"""""""" (SUB) Container""""""""*/	
+
+	#qm0 div, #qm0 ul	
+
+	{	
+
+		padding:4px;
+
+		margin:-2px 0px 0px;
+
+		background-color:transparent;
+
+		border-style:none;
+
+	}
+
+
+
+
+
+	/*"""""""" (SUB) Items""""""""*/	
+
+	#qm0 div a, #qm0 ul a	
+
+	{	
+
+		padding:3px 10px 3px 5px;
+
+		background-color:transparent;
+
+		font-size:11px;
+
+		border-width:0px;
+
+		border-style:none;
+
+	}
+
+
+
+
+
+	/*"""""""" (SUB) Hover State""""""""*/	
+
+	#qm0 div a:hover, #qm0 ul a:hover	
+
+	{	
+
+		background-color:#dadada;
+
+		color:#cc0000;
+
+	}
+
+
+
+	/*"""""""" (SUB) Active State""""""""*/	
+
+	body #qm0 div .qmactive, body #qm0 div .qmactive:hover	
+
+	{	
+
+		background-color:#dadada;
+
+		color:#cc0000;
+
+	}
+
+
+
+
+
+	/*"""""""" Individual Titles""""""""*/	
+
+	#qm0 .qmtitle	
+
+	{	
+
+		cursor:default;
+
+		padding:3px 0px 3px 4px;
+
+		color:#444444;
+
+		font-family:arial;
+
+		font-size:11px;
+
+		font-weight:bold;
+
+	}
+
+
+
+
+
+	/*"""""""" Individual Horizontal Dividers""""""""*/	
+
+	#qm0 .qmdividerx	
+
+	{	
+
+		border-top-width:1px;
+
+		margin:4px 0px;
+
+		border-color:#bfbfbf;
+
+	}
+
+
+
+
+
+	/*"""""""" Individual Vertical Dividers""""""""*/	
+
+	#qm0 .qmdividery	
+
+	{	
+
+		border-left-width:1px;
+
+		height:15px;
+
+		margin:4px 2px 0px;
+
+		border-color:#aaaaaa;
+
+	}
+
+
+
+
+
+	/*"""""""" (main) Rounded Items""""""""*/	
+
+	#qm0 .qmritem span	
+
+	{	
+
+		border-color:#dadada;
+
+		background-color:#f7f7f7;
+
+	}
+
+
+
+
+
+	/*"""""""" (main) Rounded Items Content""""""""*/	
+
+	#qm0 .qmritemcontent	
+
+	{	
+
+		padding:0px 0px 0px 4px;
+
+	}
+
+
+
+	
+
+	/*"""""""" Custom Rule """"""""*/	
+
+	ul#qm0 ul
+   {
+
+		border-left:1px solid #dadada;
+		border-bottom:1px solid #dadada;
+		border-right:1px solid #dadada;
+
+		background-color:#f7f7f7;
+
+	}
+
+	
+
+	.currrentpage1{
+
+		FONT-FAMILY: tahoma, verdana,arial;
+
+		font-size: 22px;
+
+		color:#0033CC;
+
+		font-weight:normal;
+
+		text-decoration:none;
+
+	}
+

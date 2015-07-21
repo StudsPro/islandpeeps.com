@@ -1,0 +1,15 @@
+##
+## codingking.co
+##
+## @package    codingking.co installer
+## @author     codingking.co
+## @copyright  Copyright (c) 2013 codingking.co - all rights reserved
+## @license    Commercial
+## @link       http://www.codingking.co/
+##
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]
